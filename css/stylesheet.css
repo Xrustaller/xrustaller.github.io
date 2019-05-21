@@ -1,10 +1,4 @@
 @charset "UTF-8";
-/* This CSS File was created by www.pixelateddesign.co.uk */
-/* This is free if you have purchased this templete please contact us useign the email */
-/* info@pixelateddesign.co.uk along with the amount you payed for your website */
-
-/* This file remains property of www.pixelateddesign.co.uk however this is free to use for personal use */
-
 body {
 	margin:0px;
 	padding:0px;
@@ -20,7 +14,7 @@ body {
 	width:900px;
 	height: 750px;
 	background-attachment: scroll;
-	background-image: url(../images/Untitled-4.png);
+	background-image: url(../images/1.png);
 	background-repeat: no-repeat;
 	background-position: right center;
 }
@@ -45,7 +39,7 @@ body {
 	margin-left:10px;
 	margin-top:15px;
 	float:left;
-	background-image: url(../images/logo.gif);
+	background-image: url(../images/);
 }
 
 #top_bar_black {
