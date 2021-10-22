@@ -4,17 +4,38 @@
   min-height: 92px;
 }
 
+.u-section-2 .u-shape-1 {
+  width: 1140px;
+}
+
 .u-section-2 .u-text-1 {
   font-family: "Open Sans";
   text-transform: uppercase;
   font-weight: 700;
   width: 640px;
+  font-size: 3rem;
   margin: 20px auto;
 }
 
 @media (max-width: 1199px) {
+  .u-section-2 .u-shape-1 {
+    width: 940px;
+  }
+
   .u-section-2 .u-text-1 {
     width: 316px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-2 .u-shape-1 {
+    width: 720px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-2 .u-shape-1 {
+    width: 540px;
   }
 }
 
@@ -23,8 +44,13 @@
     min-height: 73px;
   }
 
+  .u-section-2 .u-shape-1 {
+    width: 340px;
+  }
+
   .u-section-2 .u-text-1 {
     width: auto;
+    font-size: 2.25rem;
     margin-left: 12px;
     margin-right: 12px;
   }
@@ -221,17 +247,38 @@
   }
 }.u-section-4 .u-sheet-1 {
   min-height: 20px;
+}
+
+.u-section-4 .u-shape-1 {
+  height: 20px;
+  margin-top: 0;
+  margin-bottom: 0;
 }.u-section-5 .u-sheet-1 {
   min-height: 92px;
+}
+
+.u-section-5 .u-group-1 {
+  min-height: 92px;
+}
+
+.u-section-5 .u-container-layout-1 {
+  padding: 16px 30px;
 }
 
 .u-section-5 .u-text-1 {
   text-transform: uppercase;
   font-weight: 700;
-  margin: 20px 250px;
+  font-size: 3rem;
+  margin: 0 220px;
 }
 
 @media (max-width: 1199px) {
+  .u-section-5 .u-group-1 {
+    left: 0;
+    right: auto;
+    min-height: auto;
+  }
+
   .u-section-5 .u-text-1 {
     width: 316px;
     margin-left: auto;
@@ -240,20 +287,18 @@
 }
 
 @media (max-width: 767px) {
-  .u-section-5 .u-text-1 {
-    margin-top: 0;
-    margin-bottom: 0;
+  .u-section-5 .u-container-layout-1 {
+    padding-left: 10px;
+    padding-right: 10px;
   }
 }
 
 @media (max-width: 575px) {
-  .u-section-5 .u-sheet-1 {
-    min-height: 73px;
-  }
-
   .u-section-5 .u-text-1 {
     width: auto;
-    margin: 20px 12px;
+    font-size: 2.25rem;
+    margin-left: 12px;
+    margin-right: 12px;
   }
 }.u-section-6 .u-sheet-1 {
   min-height: 300px;
@@ -563,13 +608,11 @@
 }
 
 @media (max-width: 575px) {
-  .u-section-8 .u-sheet-1 {
-    min-height: 83px;
-  }
-
   .u-section-8 .u-group-1 {
     min-height: 83px;
     width: 340px;
-    margin: 0;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
   }
 }
