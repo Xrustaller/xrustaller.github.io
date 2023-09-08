@@ -15,7 +15,7 @@
 .u-section-1 .u-image-1 {
     height: 100px;
     width: 100px;
-    background-image: url("images/brand-github.svg");
+    background-image: url("../images/brand-github.svg");
     background-position: 50% 50%;
     margin: 10px auto 0 20px;
 }
@@ -116,7 +116,7 @@
 }
 
 .u-section-3 .u-image-1 {
-    background-image: url("images/Altermine-bg.png");
+    background-image: url("../images/Altermine-bg.png");
     background-position: 50% 50%;
 }
 
