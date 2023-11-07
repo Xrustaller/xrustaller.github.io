@@ -1,0 +1,76 @@
+html {
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 12pt;
+    color: #FFFFFF;
+    font-family: "Open Sans", sans-serif;
+    background: linear-gradient(180deg, #0e1423 0%, #000000 100%) repeat;
+}
+
+.center-header {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 32pt;
+    color: #B50000;
+    text-shadow: 0 0 2px #A00000;
+}
+
+a {
+    color: #FFFFFF;
+    font-family: "Open Sans", sans-serif;
+}
+
+.text_header {
+    margin: 10px 20px;
+    text-align: center;
+}
+
+.text_body {
+    margin: 0 20px;
+}
+
+.body_block {
+    margin: 20px 0;
+}
+
+.body_block_text {
+    margin: 10px 20px;
+}
+
+.body_block_json {
+    margin: 10px 20px;
+    font-size: 10pt;
+}
+
+.text_bottom {
+    margin: 20px;
+}
+
+.text_bottom div {
+    margin: 10px 0;
+}
+
+.box {
+    width: 100%;
+    white-space: nowrap
+}
+
+.box div {
+    display: inline-block;
+}
+
+.round{
+    border-radius: 100px; /* Радиус скругления */
+    border: 3px solid #a10000; /* Параметры рамки */
+    box-shadow: 0 0 7px #910000; /* Параметры тени */
+}
