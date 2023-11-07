@@ -15,49 +15,21 @@ body {
     background: linear-gradient(180deg, #0e1423 0%, #080b10 100%) repeat;
 }
 
-.center-header {
+.al-center {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 32pt;
-    color: #B50000;
-    text-shadow: 0 0 2px #A00000;
+}
+
+.center-header {
+    font-size: 42pt;
+    color: #FFF;
+    text-shadow: 6px 6px 24px #000000;
 }
 
 a {
     color: #FFFFFF;
-    font-family: "Open Sans", sans-serif;
-}
-
-.text_header {
-    margin: 10px 20px;
-    text-align: center;
-}
-
-.text_body {
-    margin: 0 20px;
-}
-
-.body_block {
-    margin: 20px 0;
-}
-
-.body_block_text {
-    margin: 10px 20px;
-}
-
-.body_block_json {
-    margin: 10px 20px;
-    font-size: 10pt;
-}
-
-.text_bottom {
-    margin: 20px;
-}
-
-.text_bottom div {
-    margin: 10px 0;
 }
 
 .box {
