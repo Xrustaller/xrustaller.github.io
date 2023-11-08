@@ -20,7 +20,21 @@ body {
     text-align: center;
     top: 0;
     left: 50%;
-    transform: translate(-50%, 10px);
+    transform: translate(-50%, 0);
+}
+
+.al-lt {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(0, -50%);
+}
+
+.al-rt {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(0, -50%);
 }
 
 .al-center {
@@ -43,7 +57,7 @@ body {
     text-align: right;
     bottom: 0;
     right: 0;
-    transform: translate(-10px, -50%);
+    transform: translate(0, -50%);
 }
 
 .al-bot-lt {
@@ -51,7 +65,7 @@ body {
     text-align: left;
     bottom: 0;
     left: 0;
-    transform: translate(10px, -50%);
+    transform: translate(0, -50%);
 }
 
 .center-header {
