@@ -83,22 +83,34 @@ body {
     display:inline-block;
 }
 
-.imgButton a img {
+.horizontal-buttons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.vertical-buttons{
+    display: flex;
+    flex-direction: column;
+}
+
+.imgButton {
+    padding: 12px;
     background: #c4c4c4;
     width: 96px;
     height: 96px;
-    padding: 8%;
     border-radius: 100%; /* Радиус скругления */
-    border: 2px solid #0e1423; /* Параметры рамки */
+    border: 3px solid #0e1423; /* Параметры рамки */
 }
 
-.imgButton:hover a img {
+.imgButton:hover {
     background: #e5e5e5;
     border: 2px solid #000000; /* Параметры рамки */
     box-shadow: 0 0 20px #000000; /* Параметры тени */
 }
 
-.imgButton:active a img {
+.imgButton:active {
     background: #ffffff;
     border: 2px solid #26395e; /* Параметры рамки */
     box-shadow: 0 0 40px #000000; /* Параметры тени */
@@ -134,10 +146,6 @@ a {
     .center-header {
         font-size: 56pt;
     }
-    .imgButton a img {
-        width: 64px;
-        height: 64px;
-    }
     .imgCentral {
         width: 300px;
         height: 300px;
@@ -149,10 +157,6 @@ a {
 }
 
 @media (max-width: 992px) or (max-height: 992px) {
-    .imgButton a img {
-        width: 64px;
-        height: 64px;
-    }
     .center-header {
         font-size: 56pt;
     }
@@ -170,16 +174,8 @@ a {
     .menu-top {
         margin-top: 60px;
     }
-    .menu-top div img {
-        width: 96px;
-        height: 96px;
-    }
     .center-header {
         font-size: 38pt;
-    }
-    .imgButton a img {
-        width: 48px;
-        height: 48px;
     }
     .imgCentral {
         width: 200px;
