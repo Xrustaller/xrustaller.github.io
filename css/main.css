@@ -231,7 +231,6 @@ a:hover {
 
 .full-page .page-container {
     height: 100%;
-    max-width: 256px;
     margin: 48px 0 24px 0;
 }
 
@@ -239,14 +238,27 @@ a:hover {
     display: flex;
     flex-direction: column;
     width: 100%;
-    gap: 24px;
+    gap: 48px;
 }
 
 .content-header {
     display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+
+.content-header-title {
+    display: flex;
     flex-direction: column;
     align-items: center;
     gap: 24px;
+}
+
+.content-header-text {
+    width: 360px;
+    text-align: left;
 }
 
 .content-header-img,
@@ -255,11 +267,19 @@ a:hover {
     border-radius: 12px;
 }
 
+.buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 24px;
+}
+
 .buttons-container {
+    width: 240px;
     padding: 6px 0;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     border: var(--gray-6) 2px solid;
     border-radius: 12px;
     background-color: var(--gray-a2);
@@ -277,6 +297,12 @@ a:hover {
 .buttons-container-header h3 {
     display: flex;
     justify-content: center;
+}
+
+.buttons-container-header-subtext {
+    text-align: center;
+    font-size: 12px;
+    font-style: italic;
 }
 
 .separator-h {
@@ -330,4 +356,58 @@ footer {
     gap: 24px;
     font-size: 16px;
     background-color: var(--gray-a2);
+}
+
+@media screen and (max-width: 1440px) {
+
+}
+
+@media screen and (max-width: 1024px) {
+    .full-page .page-container {
+        height: 100%;
+        margin: 24px 12px 24px 12px;
+    }
+
+    .page-container-center {
+        gap: 24px;
+    }
+
+    .content-header {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .content-header-text {
+        width: 100%;
+        text-align: center;
+    }
+
+    .content-header-buttons-container {
+        width: 100%;
+    }
+
+    .buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .buttons-container {
+        width: 100%;
+    }
+
+    #bc-1 {
+        order: 2;
+    }
+
+    #bc-2 {
+        order: 1;
+    }
+
+    #bc-3 {
+        order: 3;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
 }
