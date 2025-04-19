@@ -285,6 +285,10 @@ a:hover {
     background-color: var(--gray-a2);
 }
 
+.content-header-buttons-container {
+    width: auto;
+}
+
 .buttons-container-header {
     width: 100%;
     display: flex;
