@@ -231,6 +231,7 @@ a:hover {
 
 .full-page .page-container {
     height: 100%;
+    max-width: 256px;
     margin: 48px 0 24px 0;
 }
 
@@ -250,7 +251,7 @@ a:hover {
 
 .content-header-img,
 .content-header-img img {
-    width: 256px;
+    width: 128px;
     border-radius: 12px;
 }
 
@@ -261,6 +262,7 @@ a:hover {
     justify-content: center;
     border: var(--gray-6) 2px solid;
     border-radius: 12px;
+    background-color: var(--gray-a2);
 }
 
 .buttons-container-header {
