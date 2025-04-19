@@ -1,0 +1,331 @@
+:root {
+    --red-1: #1e1615;
+    --red-2: #251615;
+    --red-3: #401312;
+    --red-4: #560b0e;
+    --red-5: #661114;
+    --red-6: #781e1f;
+    --red-7: #912e2d;
+    --red-8: #bc3e3c;
+    --red-9: #b23434;
+    --red-10: #963331;
+    --red-11: #ff8f87;
+    --red-12: #ffd0cb;
+
+    --red-a1: #f3000007;
+    --red-a2: #f600000f;
+    --red-a3: #fb00002d;
+    --red-a4: #fd000045;
+    --red-a5: #fd040d57;
+    --red-a6: #ff27296a;
+    --red-a7: #ff424086;
+    --red-a8: #fe4d4ab6;
+    --red-a9: #ff4242aa;
+    --red-a10: #fe49468c;
+    --red-a11: #ff8f87;
+    --red-a12: #ffd0cb;
+
+    --red-contrast: #fff;
+    --red-surface: #32151380;
+    --red-indicator: #b23434;
+    --red-track: #b23434;
+}
+
+@supports (color: color(display-p3 1 1 1)) {
+    @media (color-gamut: p3) {
+        .dark, .dark-theme {
+            --red-1: oklch(20.9% 0.0148 24.93);
+            --red-2: oklch(22% 0.0237 24.93);
+            --red-3: oklch(26.1% 0.0712 24.93);
+            --red-4: oklch(29.5% 0.1066 24.93);
+            --red-5: oklch(33.4% 0.1185 24.93);
+            --red-6: oklch(38.4% 0.1237 24.93);
+            --red-7: oklch(45.1% 0.1339 24.93);
+            --red-8: oklch(54.3% 0.1627 24.93);
+            --red-9: oklch(51.5% 0.1627 24.93);
+            --red-10: oklch(46.6% 0.1339 24.93);
+            --red-11: oklch(78.4% 0.1627 24.93);
+            --red-12: oklch(90.2% 0.0584 24.93);
+
+            --red-a1: color(display-p3 0.9882 0 0 / 0.022);
+            --red-a2: color(display-p3 0.9961 0.0157 0 / 0.048);
+            --red-a3: color(display-p3 1 0.0431 0 / 0.152);
+            --red-a4: color(display-p3 1 0.0118 0 / 0.234);
+            --red-a5: color(display-p3 1 0.1098 0.0941 / 0.299);
+            --red-a6: color(display-p3 1 0.2314 0.2118 / 0.373);
+            --red-a7: color(display-p3 0.9961 0.3294 0.298 / 0.477);
+            --red-a8: color(display-p3 1 0.3804 0.3451 / 0.65);
+            --red-a9: color(display-p3 1 0.3412 0.3098 / 0.607);
+            --red-a10: color(display-p3 1 0.3647 0.3255 / 0.498);
+            --red-a11: color(display-p3 0.9961 0.6157 0.5725 / 0.936);
+            --red-a12: color(display-p3 1 0.8431 0.8196 / 0.97);
+
+            --red-contrast: #fff;
+            --red-surface: color(display-p3 0.1804 0.0863 0.0706 / 0.5);
+            --red-indicator: oklch(51.5% 0.1627 24.93);
+            --red-track: oklch(51.5% 0.1627 24.93);
+        }
+    }
+}
+
+:root {
+    --gray-1: #181818;
+    --gray-2: #1e1e1e;
+    --gray-3: #272727;
+    --gray-4: #2d2d2d;
+    --gray-5: #333;
+    --gray-6: #3b3b3b;
+    --gray-7: #484848;
+    --gray-8: #606060;
+    --gray-9: #6d6d6d;
+    --gray-10: #7b7b7b;
+    --gray-11: #b3b3b3;
+    --gray-12: #eee;
+
+    --gray-a1: #00000000;
+    --gray-a2: #ffffff07;
+    --gray-a3: #ffffff11;
+    --gray-a4: #ffffff17;
+    --gray-a5: #ffffff1e;
+    --gray-a6: #ffffff27;
+    --gray-a7: #ffffff35;
+    --gray-a8: #ffffff4f;
+    --gray-a9: #ffffff5e;
+    --gray-a10: #ffffff6d;
+    --gray-a11: #ffffffab;
+    --gray-a12: #ffffffec;
+
+    --gray-contrast: #FFFFFF;
+    --gray-surface: rgba(0, 0, 0, 0.05);
+    --gray-indicator: #6d6d6d;
+    --gray-track: #6d6d6d;
+}
+
+@supports (color: color(display-p3 1 1 1)) {
+    @media (color-gamut: p3) {
+        .dark, .dark-theme {
+            --gray-1: oklch(20.9% 0 none);
+            --gray-2: oklch(23.7% 0 none);
+            --gray-3: oklch(27.2% 0 none);
+            --gray-4: oklch(29.6% 0 none);
+            --gray-5: oklch(32.1% 0 none);
+            --gray-6: oklch(35.3% 0 none);
+            --gray-7: oklch(40.3% 0 none);
+            --gray-8: oklch(48.9% 0 none);
+            --gray-9: oklch(53.5% 0 none);
+            --gray-10: oklch(58.1% 0 none);
+            --gray-11: oklch(76.8% 0 none);
+            --gray-12: oklch(94.8% 0 none);
+
+            --gray-a1: color(display-p3 0 0 0 / 0);
+            --gray-a2: color(display-p3 1 1 1 / 0.026);
+            --gray-a3: color(display-p3 1 1 1 / 0.0649);
+            --gray-a4: color(display-p3 1 1 1 / 0.0909);
+            --gray-a5: color(display-p3 1 1 1 / 0.1169);
+            --gray-a6: color(display-p3 1 1 1 / 0.1515);
+            --gray-a7: color(display-p3 1 1 1 / 0.2078);
+            --gray-a8: color(display-p3 1 1 1 / 0.3117);
+            --gray-a9: color(display-p3 1 1 1 / 0.368);
+            --gray-a10: color(display-p3 1 1 1 / 0.4286);
+            --gray-a11: color(display-p3 1 1 1 / 0.671);
+            --gray-a12: color(display-p3 1 1 1 / 0.9264);
+
+            --gray-contrast: #FFFFFF;
+            --gray-surface: color(display-p3 0 0 0 / 5%);
+            --gray-indicator: oklch(53.5% 0 none);
+            --gray-track: oklch(53.5% 0 none);
+        }
+    }
+}
+
+:root {
+    --gray-background: var(--gray-1);
+    --gray-background-second: var(--gray-2);
+
+    --gray-a-background: var(--gray-a1);
+    --gray-a-background-second: var(--gray-a2);
+
+    --surface: var(--gray-surface);
+
+    --text-color: var(--gray-12);
+    --text-color-second: var(--gray-11);
+
+    --color-solid: var(--red-9);
+    --color-solid-second: var(--red-10);
+    --color-solid-mid: var(--red-5);
+
+    --gray-solid: var(--gray-9);
+    --gray-solid-second: var(--gray-10);
+    --gray-solid-mid: var(--gray-5);
+
+    --green-a3: rgba(0, 252, 0, 0.24);
+    --green-11: #90ff7f;
+    --green-12: #cdffc3;
+}
+
+:root {
+    --index: calc(1vw + 1vh);
+    --gallery-gap: calc(var(--index) * 7.5);
+
+    --page-wight: 1280px;
+
+    --footer-height: 32px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    min-height: 100vh;
+}
+
+body {
+    background: #181818;
+    color: var(--text-color);
+    font-family: "Montserrat", serif;
+    overflow-x: hidden;
+    min-height: 100vh;
+}
+
+#bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Этот элемент будет всегда позади всех других */
+    user-select: none; /* Запрещает выделение */
+    pointer-events: none; /* Запрещает взаимодействие мыши с фоном */
+}
+
+a {
+    transition: all 0.6s;
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+a:hover {
+    color: var(--text-color-second);
+}
+
+.full-page {
+    min-height: calc(100vh - var(--footer-height));
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10vh;
+}
+
+.full-page .full-page-background {
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+    z-index: -1;
+    pointer-events: none;
+}
+
+.full-page .page-container {
+    height: 100%;
+    margin: 48px 0 24px 0;
+}
+
+.page-container-center {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 24px;
+}
+
+.content-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+.content-header-img,
+.content-header-img img {
+    width: 256px;
+    border-radius: 12px;
+}
+
+.buttons-container {
+    padding: 6px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: var(--gray-6) 2px solid;
+    border-radius: 12px;
+}
+
+.buttons-container-header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 12px;
+    padding: 12px 24px;
+}
+
+.buttons-container-header h3 {
+    display: flex;
+    justify-content: center;
+}
+
+.separator-h {
+    width: 100%;
+    height: 3px;
+    border-radius: 6px;
+    background-color: var(--gray-6);
+}
+
+.svgButton {
+    display: flex;
+}
+
+.svgButton svg,
+.svgButton a {
+    height: 100%;
+    transition: all 0.6s;
+}
+
+.svgButton a {
+    width: 100%;
+    padding: 6px 24px;
+    height: 48px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+}
+
+.svgButton a:hover {
+    background: var(--gray-a6);
+    color: var(--text-color);
+}
+
+.svgButton-fill svg {
+    fill: var(--text-color);
+}
+
+.svgButton-stroke svg {
+    stroke: var(--text-color);
+}
+
+footer {
+    width: 100%;
+    height: var(--footer-height);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 24px;
+    font-size: 16px;
+    background-color: var(--gray-a2);
+}

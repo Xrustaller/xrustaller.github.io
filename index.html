@@ -3,115 +3,159 @@
 <head>
     <meta charset="utf-8">
     <title>Xrustaller</title>
-    <link rel="icon" href="images/favicon.png">
+    <link rel="icon" href="./img/favicon.png">
 
-    <link rel="stylesheet" href="style/index.css" media="screen">
-    <link rel="stylesheet" href="style/normalize.css" media="screen">
-    <script class="u-script" type="text/javascript" src="js/jquery.js" defer=""></script>
-    <script class="u-script" type="text/javascript" src="js/animate-bg.js" defer=""></script>
-
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="page_type" content="np-template-header-footer-from-plugin">
-    <link id="u-theme-google-font" rel="stylesheet"
-          href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i">
-    <link id="u-page-google-font" rel="stylesheet"
-          href="https://fonts.googleapis.com/css?family=Oxanium:200,300,400,500,600,700,800">
 
-    <script type="application/ld+json">{
-        "@context": "http://schema.org",
-        "@type": "Organization",
-        "name": "Xrustaller"
-    }</script>
+    <script type="application/ld+json">
+        {
+            "@@context": "https://schema.org",
+            "@@type": "Organization",
+            "name": "Xrustaller",
+            "url": "https://xrustaller.ru",
+            "logo": "https://xrustaller.ru/img/Logo.png",
+            "sameAs": [
+                "https://t.me/Xrusttalk",
+                "https://vk.com/xrustaller",
+                "https://www.youtube.com/xrustaller",
+                "https://www.twitch.tv/xrustaller",
+                "https://discord.com/invite/qeTuEmw"
+            ]
+        }
+    </script>
+
     <meta name="keywords" content="Xrustaller, Twitch, Страница VK, Youtube">
-    <meta name="description" content="Xrustaller - программист, музыкант, стример и блогер">
-    <meta name="theme-color" content="#478ac9">
+    <meta name="description" content="Xrustaller - человек программист, музыкант, вокалист, стример и еще много много чего">
+    <meta name="theme-color" content="#b23434">
 
+    <meta property="og:locale" content="ru_RU">
     <meta property="og:title" content="Xrustaller">
-    <meta property="og:site_name" content="xrustaller.ru">
+    <meta property="og:description" content="Xrustaller - человек программист, музыкант, вокалист, стример и еще много много чего">
+    <meta property="og:site_name" content="Xrustaller">
     <meta property="og:url" content="https://xrustaller.ru/">
-    <meta property="og:description" content="Xrustaller - программист, музыкант, стример и блогер">
     <meta property="og:type" content="website">
-    <meta property="og:image" content="https://xrustaller.ru/images/Logo.png">
+    <meta property="og:image" content="https://xrustaller.ru/img/Logo.png">
     <meta property="og:image:width" content="600">
     <meta property="og:image:height" content="600">
+
+    <meta name="twitter:site" content="Xrustaller">
+    <meta name="twitter:title" content="Xrustaller">
+    <meta name="twitter:description" content="Xrustaller - человек программист, музыкант, вокалист, стример и еще много много чего">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="https://xrustaller.ru/img/Logo.png">
+
+    <link rel="canonical" href="https://xrustaller.ru/">
+    <link rel="alternate" hreflang="ru" href="https://xrustaller.ru/">
+
+
+    <script class="u-script" type="text/javascript" src="./lib/jquery/dist/jquery.min.js" defer></script>
+    <script class="u-script" type="text/javascript" src="./lib/jquery-modal/dist/jquery.modal.min.js" defer></script>
+
+    <script class="u-script" type="text/javascript" src="./js/animate-bg.js" defer></script>
+    <script class="u-script" type="text/javascript" src="./js/main.js" defer></script>
+
+
+    <link rel="stylesheet" href="./lib/jquery-modal/dist/jquery.modal.min.css">
+
+    <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
-<div id="bg">
-</div>
-<div class="al-center">
-    <div class="al-center">
-        <img class="imgCentral round" src="images/Logo.png" alt="">
+<header>
+
+</header>
+<div class="full-page">
+    <div class="page-container">
+        <div class="page-container-center">
+            <div class="content-header">
+                <h1>Xrustaller</h1>
+                <div class="content-header-img">
+                    <img class="imgCentral round" src="./img/Logo.png" alt="">
+                </div>
+            </div>
+
+            <div class="buttons-container">
+                <div class="buttons-container-header">
+                    <h3>Соц-сети</h3>
+                    <div class="separator-h"></div>
+                </div>
+                <div class="svgButton">
+                    <a class="svgButton-fill" href="https://t.me/Xrusttalk">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" fill="#000000"><path d="M 44.376953 5.9863281 C 43.889905 6.0076957 43.415817 6.1432497 42.988281 6.3144531 C 42.565113 6.4845113 40.128883 7.5243408 36.53125 9.0625 C 32.933617 10.600659 28.256963 12.603668 23.621094 14.589844 C 14.349356 18.562196 5.2382813 22.470703 5.2382812 22.470703 L 5.3046875 22.445312 C 5.3046875 22.445312 4.7547875 22.629122 4.1972656 23.017578 C 3.9185047 23.211806 3.6186028 23.462555 3.3730469 23.828125 C 3.127491 24.193695 2.9479735 24.711788 3.015625 25.259766 C 3.2532479 27.184511 5.2480469 27.730469 5.2480469 27.730469 L 5.2558594 27.734375 L 14.158203 30.78125 C 14.385177 31.538434 16.858319 39.792923 17.402344 41.541016 C 17.702797 42.507484 17.984013 43.064995 18.277344 43.445312 C 18.424133 43.635633 18.577962 43.782915 18.748047 43.890625 C 18.815627 43.933415 18.8867 43.965525 18.957031 43.994141 C 18.958531 43.994806 18.959437 43.99348 18.960938 43.994141 C 18.969579 43.997952 18.977708 43.998295 18.986328 44.001953 L 18.962891 43.996094 C 18.979231 44.002694 18.995359 44.013801 19.011719 44.019531 C 19.043456 44.030655 19.062905 44.030268 19.103516 44.039062 C 20.123059 44.395042 20.966797 43.734375 20.966797 43.734375 L 21.001953 43.707031 L 26.470703 38.634766 L 35.345703 45.554688 L 35.457031 45.605469 C 37.010484 46.295216 38.415349 45.910403 39.193359 45.277344 C 39.97137 44.644284 40.277344 43.828125 40.277344 43.828125 L 40.310547 43.742188 L 46.832031 9.7519531 C 46.998903 8.9915162 47.022612 8.334202 46.865234 7.7402344 C 46.707857 7.1462668 46.325492 6.6299361 45.845703 6.34375 C 45.365914 6.0575639 44.864001 5.9649605 44.376953 5.9863281 z M 44.429688 8.0195312 C 44.627491 8.0103707 44.774102 8.032983 44.820312 8.0605469 C 44.866523 8.0881109 44.887272 8.0844829 44.931641 8.2519531 C 44.976011 8.419423 45.000036 8.7721605 44.878906 9.3242188 L 44.875 9.3359375 L 38.390625 43.128906 C 38.375275 43.162926 38.240151 43.475531 37.931641 43.726562 C 37.616914 43.982653 37.266874 44.182554 36.337891 43.792969 L 26.632812 36.224609 L 26.359375 36.009766 L 26.353516 36.015625 L 23.451172 33.837891 L 39.761719 14.648438 A 1.0001 1.0001 0 0 0 38.974609 13 A 1.0001 1.0001 0 0 0 38.445312 13.167969 L 14.84375 28.902344 L 5.9277344 25.849609 C 5.9277344 25.849609 5.0423771 25.356927 5 25.013672 C 4.99765 24.994652 4.9871961 25.011869 5.0332031 24.943359 C 5.0792101 24.874869 5.1948546 24.759225 5.3398438 24.658203 C 5.6298218 24.456159 5.9609375 24.333984 5.9609375 24.333984 L 5.9941406 24.322266 L 6.0273438 24.308594 C 6.0273438 24.308594 15.138894 20.399882 24.410156 16.427734 C 29.045787 14.44166 33.721617 12.440122 37.318359 10.902344 C 40.914175 9.3649615 43.512419 8.2583658 43.732422 8.1699219 C 43.982886 8.0696253 44.231884 8.0286918 44.429688 8.0195312 z M 33.613281 18.792969 L 21.244141 33.345703 L 21.238281 33.351562 A 1.0001 1.0001 0 0 0 21.183594 33.423828 A 1.0001 1.0001 0 0 0 21.128906 33.507812 A 1.0001 1.0001 0 0 0 20.998047 33.892578 A 1.0001 1.0001 0 0 0 20.998047 33.900391 L 19.386719 41.146484 C 19.35993 41.068197 19.341173 41.039555 19.3125 40.947266 L 19.3125 40.945312 C 18.800713 39.30085 16.467362 31.5161 16.144531 30.439453 L 33.613281 18.792969 z M 22.640625 35.730469 L 24.863281 37.398438 L 21.597656 40.425781 L 22.640625 35.730469 z"/></svg>
+                        <span>Telegram канал</span>
+                    </a>
+                </div>
+                <div class="svgButton">
+                    <a class="svgButton-stroke" href="https://discord.com/invite/qeTuEmw">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-width="1" stroke="#000" fill="none" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="12" r="1"/><circle cx="15" cy="12" r="1"/><path d="M7.5 7.5c3.5-1 5.5-1 9 0m-9.5 9c3.5 1 6.5 1 10 0"/><path d="M15.5 17c0 1 1.5 3 2 3 1.5 0 2.833-1.667 3.5-3 .667-1.667.5-5.833-1.5-11.5-1.457-1.015-3-1.34-4.5-1.5l-1 2.5M8.5 17c0 1-1.356 3-1.832 3-1.429 0-2.698-1.667-3.333-3-.635-1.667-.476-5.833 1.428-11.5C6.151 4.485 7.545 4.16 9 4l1 2.5"/></svg>
+                        <span>Discord канал</span>
+                    </a>
+                </div>
+                <div class="svgButton">
+                    <a class="svgButton-stroke" href="https://www.youtube.com/xrustaller">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-width="1" stroke="#000" fill="none" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" viewbox="0 0 18 14" rx="4"/><path d="M10 9l5 3-5 3z"/></svg>
+                        <span>Youtube канал</span>
+                    </a>
+                </div>
+                <div class="svgButton">
+                    <a class="svgButton-stroke" href="https://www.twitch.tv/xrustaller">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-width="1" stroke="#000" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5v11a1 1 0 0 0 1 1h2v4l4-4h5.584c.266 0 .52-.105.707-.293l2.415-2.414c.187-.188.293-.442.293-.708V5a1 1 0 0 0-1-1h-14a1 1 0 0 0-1 1z"/><path d="M16 8v4m-4-4v4"/></svg>
+                        <span>Twitch канал</span>
+                    </a>
+                </div>
+                <div class="svgButton">
+                    <a class="svgButton-fill" href="https://t.me/xrustaller">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" fill="#000000"><path d="M 44.376953 5.9863281 C 43.889905 6.0076957 43.415817 6.1432497 42.988281 6.3144531 C 42.565113 6.4845113 40.128883 7.5243408 36.53125 9.0625 C 32.933617 10.600659 28.256963 12.603668 23.621094 14.589844 C 14.349356 18.562196 5.2382813 22.470703 5.2382812 22.470703 L 5.3046875 22.445312 C 5.3046875 22.445312 4.7547875 22.629122 4.1972656 23.017578 C 3.9185047 23.211806 3.6186028 23.462555 3.3730469 23.828125 C 3.127491 24.193695 2.9479735 24.711788 3.015625 25.259766 C 3.2532479 27.184511 5.2480469 27.730469 5.2480469 27.730469 L 5.2558594 27.734375 L 14.158203 30.78125 C 14.385177 31.538434 16.858319 39.792923 17.402344 41.541016 C 17.702797 42.507484 17.984013 43.064995 18.277344 43.445312 C 18.424133 43.635633 18.577962 43.782915 18.748047 43.890625 C 18.815627 43.933415 18.8867 43.965525 18.957031 43.994141 C 18.958531 43.994806 18.959437 43.99348 18.960938 43.994141 C 18.969579 43.997952 18.977708 43.998295 18.986328 44.001953 L 18.962891 43.996094 C 18.979231 44.002694 18.995359 44.013801 19.011719 44.019531 C 19.043456 44.030655 19.062905 44.030268 19.103516 44.039062 C 20.123059 44.395042 20.966797 43.734375 20.966797 43.734375 L 21.001953 43.707031 L 26.470703 38.634766 L 35.345703 45.554688 L 35.457031 45.605469 C 37.010484 46.295216 38.415349 45.910403 39.193359 45.277344 C 39.97137 44.644284 40.277344 43.828125 40.277344 43.828125 L 40.310547 43.742188 L 46.832031 9.7519531 C 46.998903 8.9915162 47.022612 8.334202 46.865234 7.7402344 C 46.707857 7.1462668 46.325492 6.6299361 45.845703 6.34375 C 45.365914 6.0575639 44.864001 5.9649605 44.376953 5.9863281 z M 44.429688 8.0195312 C 44.627491 8.0103707 44.774102 8.032983 44.820312 8.0605469 C 44.866523 8.0881109 44.887272 8.0844829 44.931641 8.2519531 C 44.976011 8.419423 45.000036 8.7721605 44.878906 9.3242188 L 44.875 9.3359375 L 38.390625 43.128906 C 38.375275 43.162926 38.240151 43.475531 37.931641 43.726562 C 37.616914 43.982653 37.266874 44.182554 36.337891 43.792969 L 26.632812 36.224609 L 26.359375 36.009766 L 26.353516 36.015625 L 23.451172 33.837891 L 39.761719 14.648438 A 1.0001 1.0001 0 0 0 38.974609 13 A 1.0001 1.0001 0 0 0 38.445312 13.167969 L 14.84375 28.902344 L 5.9277344 25.849609 C 5.9277344 25.849609 5.0423771 25.356927 5 25.013672 C 4.99765 24.994652 4.9871961 25.011869 5.0332031 24.943359 C 5.0792101 24.874869 5.1948546 24.759225 5.3398438 24.658203 C 5.6298218 24.456159 5.9609375 24.333984 5.9609375 24.333984 L 5.9941406 24.322266 L 6.0273438 24.308594 C 6.0273438 24.308594 15.138894 20.399882 24.410156 16.427734 C 29.045787 14.44166 33.721617 12.440122 37.318359 10.902344 C 40.914175 9.3649615 43.512419 8.2583658 43.732422 8.1699219 C 43.982886 8.0696253 44.231884 8.0286918 44.429688 8.0195312 z M 33.613281 18.792969 L 21.244141 33.345703 L 21.238281 33.351562 A 1.0001 1.0001 0 0 0 21.183594 33.423828 A 1.0001 1.0001 0 0 0 21.128906 33.507812 A 1.0001 1.0001 0 0 0 20.998047 33.892578 A 1.0001 1.0001 0 0 0 20.998047 33.900391 L 19.386719 41.146484 C 19.35993 41.068197 19.341173 41.039555 19.3125 40.947266 L 19.3125 40.945312 C 18.800713 39.30085 16.467362 31.5161 16.144531 30.439453 L 33.613281 18.792969 z M 22.640625 35.730469 L 24.863281 37.398438 L 21.597656 40.425781 L 22.640625 35.730469 z"/></svg>
+                        <span>Telegram ЛС</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="buttons-container">
+                <div class="buttons-container-header">
+                    <h3>Проекты</h3>
+                    <div class="separator-h"></div>
+                </div>
+                <div class="svgButton">
+                    <a class="svgButton-stroke" href="https://github.com/Xrustaller">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-width="1" stroke="#000" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6 0 0 0-1.3-3.2 4.2 4.2 0 0 0-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3 0 0 0-6.2 0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2 0 0 0-.1 3.2A4.6 4.6 0 0 0 4 9.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V21"/></svg>
+                        <span>Github</span>
+                    </a>
+                </div>
+                <div class="svgButton">
+                    <a class="svgButton-stroke" href="https://vk.com/alterminegame">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-width="1" stroke="#000" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6 0 0 0-1.3-3.2 4.2 4.2 0 0 0-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3 0 0 0-6.2 0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2 0 0 0-.1 3.2A4.6 4.6 0 0 0 4 9.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V21"/></svg>
+                        <span>Altermine</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="buttons-container">
+                <div class="buttons-container-header">
+                    <h3>Поддержка</h3>
+                    <div class="separator-h"></div>
+                </div>
+                <div class="svgButton">
+                    <a class="svgButton-fill" href="https://www.donationalerts.com/r/xrustaller">
+                        <svg style="padding: 3px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="#000000"><path d="M230.33,141.06a24.43,24.43,0,0,0-21.24-4.23l-41.84,9.62A28,28,0,0,0,140,112H89.94a31.82,31.82,0,0,0-22.63,9.37L44.69,144H16A16,16,0,0,0,0,160v40a16,16,0,0,0,16,16H120a7.93,7.93,0,0,0,1.94-.24l64-16a6.94,6.94,0,0,0,1.19-.4L226,182.82l.44-.2a24.6,24.6,0,0,0,3.93-41.56ZM16,160H40v40H16Zm203.43,8.21-38,16.18L119,200H56V155.31l22.63-22.62A15.86,15.86,0,0,1,89.94,128H140a12,12,0,0,1,0,24H112a8,8,0,0,0,0,16h32a8.32,8.32,0,0,0,1.79-.2l67-15.41.31-.08a8.6,8.6,0,0,1,6.3,15.9ZM164,96a36,36,0,0,0,5.9-.48,36,36,0,1,0,28.22-47A36,36,0,1,0,164,96Zm60-12a20,20,0,1,1-20-20A20,20,0,0,1,224,84ZM164,40a20,20,0,0,1,19.25,14.61,36,36,0,0,0-15,24.93A20.42,20.42,0,0,1,164,80a20,20,0,0,1,0-40Z"></path></svg>
+                        <span>DonationAlerts</span>
+                    </a>
+                </div>
+                <div class="svgButton">
+                    <a class="svgButton-fill" href="/donate.html">
+                        <svg style="padding: 0 3px;"  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 235.6 292.2" ><path d="M44.3,164.5L76.9,51.6H127l-10.1,35c-0.1,0.2-0.2,0.4-0.3,0.6L90,179.6h24.8c-10.4,25.9-18.5,46.2-24.3,60.9 c-45.8-0.5-58.6-33.3-47.4-72.1 M90.7,240.6l60.4-86.9h-25.6l22.3-55.7c38.2,4,56.2,34.1,45.6,70.5 c-11.3,39.1-57.1,72.1-101.7,72.1C91.3,240.6,91,240.6,90.7,240.6z"/></svg>
+                        <span>Boosty</span>
+                    </a>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="al-center center-header">Xrustaller</div>
 </div>
-<div class="al-top">
-    <div class="horizontal-buttons">
-        <a class="imgButton" href="https://t.me/Xrusttalk">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" fill="#000000"><path d="M 44.376953 5.9863281 C 43.889905 6.0076957 43.415817 6.1432497 42.988281 6.3144531 C 42.565113 6.4845113 40.128883 7.5243408 36.53125 9.0625 C 32.933617 10.600659 28.256963 12.603668 23.621094 14.589844 C 14.349356 18.562196 5.2382813 22.470703 5.2382812 22.470703 L 5.3046875 22.445312 C 5.3046875 22.445312 4.7547875 22.629122 4.1972656 23.017578 C 3.9185047 23.211806 3.6186028 23.462555 3.3730469 23.828125 C 3.127491 24.193695 2.9479735 24.711788 3.015625 25.259766 C 3.2532479 27.184511 5.2480469 27.730469 5.2480469 27.730469 L 5.2558594 27.734375 L 14.158203 30.78125 C 14.385177 31.538434 16.858319 39.792923 17.402344 41.541016 C 17.702797 42.507484 17.984013 43.064995 18.277344 43.445312 C 18.424133 43.635633 18.577962 43.782915 18.748047 43.890625 C 18.815627 43.933415 18.8867 43.965525 18.957031 43.994141 C 18.958531 43.994806 18.959437 43.99348 18.960938 43.994141 C 18.969579 43.997952 18.977708 43.998295 18.986328 44.001953 L 18.962891 43.996094 C 18.979231 44.002694 18.995359 44.013801 19.011719 44.019531 C 19.043456 44.030655 19.062905 44.030268 19.103516 44.039062 C 20.123059 44.395042 20.966797 43.734375 20.966797 43.734375 L 21.001953 43.707031 L 26.470703 38.634766 L 35.345703 45.554688 L 35.457031 45.605469 C 37.010484 46.295216 38.415349 45.910403 39.193359 45.277344 C 39.97137 44.644284 40.277344 43.828125 40.277344 43.828125 L 40.310547 43.742188 L 46.832031 9.7519531 C 46.998903 8.9915162 47.022612 8.334202 46.865234 7.7402344 C 46.707857 7.1462668 46.325492 6.6299361 45.845703 6.34375 C 45.365914 6.0575639 44.864001 5.9649605 44.376953 5.9863281 z M 44.429688 8.0195312 C 44.627491 8.0103707 44.774102 8.032983 44.820312 8.0605469 C 44.866523 8.0881109 44.887272 8.0844829 44.931641 8.2519531 C 44.976011 8.419423 45.000036 8.7721605 44.878906 9.3242188 L 44.875 9.3359375 L 38.390625 43.128906 C 38.375275 43.162926 38.240151 43.475531 37.931641 43.726562 C 37.616914 43.982653 37.266874 44.182554 36.337891 43.792969 L 26.632812 36.224609 L 26.359375 36.009766 L 26.353516 36.015625 L 23.451172 33.837891 L 39.761719 14.648438 A 1.0001 1.0001 0 0 0 38.974609 13 A 1.0001 1.0001 0 0 0 38.445312 13.167969 L 14.84375 28.902344 L 5.9277344 25.849609 C 5.9277344 25.849609 5.0423771 25.356927 5 25.013672 C 4.99765 24.994652 4.9871961 25.011869 5.0332031 24.943359 C 5.0792101 24.874869 5.1948546 24.759225 5.3398438 24.658203 C 5.6298218 24.456159 5.9609375 24.333984 5.9609375 24.333984 L 5.9941406 24.322266 L 6.0273438 24.308594 C 6.0273438 24.308594 15.138894 20.399882 24.410156 16.427734 C 29.045787 14.44166 33.721617 12.440122 37.318359 10.902344 C 40.914175 9.3649615 43.512419 8.2583658 43.732422 8.1699219 C 43.982886 8.0696253 44.231884 8.0286918 44.429688 8.0195312 z M 33.613281 18.792969 L 21.244141 33.345703 L 21.238281 33.351562 A 1.0001 1.0001 0 0 0 21.183594 33.423828 A 1.0001 1.0001 0 0 0 21.128906 33.507812 A 1.0001 1.0001 0 0 0 20.998047 33.892578 A 1.0001 1.0001 0 0 0 20.998047 33.900391 L 19.386719 41.146484 C 19.35993 41.068197 19.341173 41.039555 19.3125 40.947266 L 19.3125 40.945312 C 18.800713 39.30085 16.467362 31.5161 16.144531 30.439453 L 33.613281 18.792969 z M 22.640625 35.730469 L 24.863281 37.398438 L 21.597656 40.425781 L 22.640625 35.730469 z"/></svg>
-        </a>
-        <a class="imgButton" href="https://vk.com/xrustaller">
-            <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-width="1" stroke="#000" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M10 6h2v12c-4.5-1-8-6.5-9-12"/><path d="M20 6c-1 2-3 5-5 6h-3m8 6c-1-2-3-5-5-6"/></svg>
-        </a>
-        <a class="imgButton" href="https://discord.com/invite/qeTuEmw">
-            <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-width="1" stroke="#000" fill="none" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="12" r="1"/><circle cx="15" cy="12" r="1"/><path d="M7.5 7.5c3.5-1 5.5-1 9 0m-9.5 9c3.5 1 6.5 1 10 0"/><path d="M15.5 17c0 1 1.5 3 2 3 1.5 0 2.833-1.667 3.5-3 .667-1.667.5-5.833-1.5-11.5-1.457-1.015-3-1.34-4.5-1.5l-1 2.5M8.5 17c0 1-1.356 3-1.832 3-1.429 0-2.698-1.667-3.333-3-.635-1.667-.476-5.833 1.428-11.5C6.151 4.485 7.545 4.16 9 4l1 2.5"/></svg>
-        </a>
-        <a class="imgButton" href="https://www.youtube.com/xrustaller">
-            <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-width="1" stroke="#000" fill="none" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" viewbox="0 0 18 14" rx="4"/><path d="M10 9l5 3-5 3z"/></svg>
-        </a>
-        <a class="imgButton" href="https://www.twitch.tv/xrustaller">
-            <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-width="1" stroke="#000" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5v11a1 1 0 0 0 1 1h2v4l4-4h5.584c.266 0 .52-.105.707-.293l2.415-2.414c.187-.188.293-.442.293-.708V5a1 1 0 0 0-1-1h-14a1 1 0 0 0-1 1z"/><path d="M16 8v4m-4-4v4"/></svg>
-        </a>
-    </div>
-</div>
-<div class="al-lt">
-    <div class="vertical-buttons">
-        <a class="imgButton" href="https://github.com/Xrustaller">
-            <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-width="1" stroke="#000" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6 0 0 0-1.3-3.2 4.2 4.2 0 0 0-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3 0 0 0-6.2 0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2 0 0 0-.1 3.2A4.6 4.6 0 0 0 4 9.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V21"/></svg>
-        </a>
-        <a class="imgButton" href="https://vk.com/alterminegame">
-            <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-width="1" stroke="#000" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6 0 0 0-1.3-3.2 4.2 4.2 0 0 0-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3 0 0 0-6.2 0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2 0 0 0-.1 3.2A4.6 4.6 0 0 0 4 9.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V21"/></svg>
-        </a>
-    </div>
-</div>
-<div class="al-rt">
-    <div class="vertical-buttons">
-        <a class="imgButton" href="https://www.donationalerts.com/r/xrustaller">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="#000000"><path d="M230.33,141.06a24.43,24.43,0,0,0-21.24-4.23l-41.84,9.62A28,28,0,0,0,140,112H89.94a31.82,31.82,0,0,0-22.63,9.37L44.69,144H16A16,16,0,0,0,0,160v40a16,16,0,0,0,16,16H120a7.93,7.93,0,0,0,1.94-.24l64-16a6.94,6.94,0,0,0,1.19-.4L226,182.82l.44-.2a24.6,24.6,0,0,0,3.93-41.56ZM16,160H40v40H16Zm203.43,8.21-38,16.18L119,200H56V155.31l22.63-22.62A15.86,15.86,0,0,1,89.94,128H140a12,12,0,0,1,0,24H112a8,8,0,0,0,0,16h32a8.32,8.32,0,0,0,1.79-.2l67-15.41.31-.08a8.6,8.6,0,0,1,6.3,15.9ZM164,96a36,36,0,0,0,5.9-.48,36,36,0,1,0,28.22-47A36,36,0,1,0,164,96Zm60-12a20,20,0,1,1-20-20A20,20,0,0,1,224,84ZM164,40a20,20,0,0,1,19.25,14.61,36,36,0,0,0-15,24.93A20.42,20.42,0,0,1,164,80a20,20,0,0,1,0-40Z"></path></svg>
-        </a>
-        <a class="imgButton" href="/donate" style="padding-top: 6px">
-            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 235.6 292.2" ><path d="M44.3,164.5L76.9,51.6H127l-10.1,35c-0.1,0.2-0.2,0.4-0.3,0.6L90,179.6h24.8c-10.4,25.9-18.5,46.2-24.3,60.9 c-45.8-0.5-58.6-33.3-47.4-72.1 M90.7,240.6l60.4-86.9h-25.6l22.3-55.7c38.2,4,56.2,34.1,45.6,70.5 c-11.3,39.1-57.1,72.1-101.7,72.1C91.3,240.6,91,240.6,90.7,240.6z"/></svg>
-        </a>
-    </div>
-</div>
-<!--
-<div class="al-top">
-    <div style="margin: 10px 0">
-        <div style="font-size: 18px; font-style: oblique">Ссылки:</div>
-        <div><a href="https://vk.com/xrustaller">Личная страница VK</a></div>
-        <div><a href="https://t.me/Xrusttalk">Телеграм паблик</a></div>
-        <div><a href="https://www.youtube.com/xrustaller">YouTube</a></div>
-        <div><a href="https://www.twitch.tv/xrustaller">Twitch</a></div>
-        <div><a href="https://discord.com/invite/qeTuEmw">Discord</a></div>
-    </div>
-    <div style="margin: 10px 0">
-        <div style="font-size: 18px; font-style: oblique">Проекты:</div>
-        <div><a href="https://github.com/Xrustaller">GitHub</a></div>
-        <div><a href="https://vk.com/alterminegame">Игра Altermine</a></div>
-    </div>
-    <div style="margin: 10px 0">
-        <div style="font-size: 18px; font-style: oblique">Поддержать:</div>
-        <div><a href="https://www.donationalerts.com/r/xrustaller">Donation alerts</a></div>
-        <div><a href="/donate">Boosty</a></div>
-    </div>
-</div>
--->
-<div class="al-bot-lt">
-    <div style="font-style: oblique">Связь со мной:</div>
-    <div><a href="mailto:xrustaller@gmail.com">xrustaller@gmail.com</a></div>
-</div>
-<div class="al-bot-rt">
-    <div style="font-style: oblique">Сайт находится в разработке</div>
-    <div>2023&nbsp;© xrustaller.ru</div>
-</div>
+
+
+<footer>
+    <div>2025 © <a href="https://xrustaller.ru/">xrustaller.ru</a></div>
+</footer>
+
 </body>
 </html>
